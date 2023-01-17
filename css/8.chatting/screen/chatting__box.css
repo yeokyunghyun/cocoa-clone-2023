@@ -1,0 +1,72 @@
+.chatting__box {
+  padding: 110px 3px;
+}
+.chatting__date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chatting__date__element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 13px;
+}
+
+.chatting__row {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.chatting__row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.chatting__row__text__name {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.chatting__row i {
+  font-size: 55px;
+  margin-right: 5px;
+}
+.chatting__row__message-box {
+  display: flex;
+  align-items: flex-end;
+}
+.chatting__row__message {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+.chatting__row__time {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.transmitter {
+  justify-content: flex-end;
+}
+.transmitter .chatting__row__message-box {
+  flex-direction: row-reverse;
+}
+.transmitter .chatting__row__message {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0px;
+  margin-right: 0px;
+  margin-left: 5px;
+  background-color: var(--yellow);
+}

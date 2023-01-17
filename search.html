@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="kor">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+
+    <title>Friend-List</title>
+  </head>
+
+  <body>
+    <div class="status_bar">
+      <div class="status_bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+
+      <div class="status_bar__column">
+        <span>12:30</span>
+      </div>
+
+      <div class="status_bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screenheader">
+      <h1 class="screenheader__title">Find</h1>
+      <div class="screenheader__icon">
+        <span class="screenheader__icon__element"
+          ><i class="fa-solid fa-magnifying-glass fa-lg"></i
+        ></span>
+        <span class="screenheader__icon__element"
+          ><i class="fa-solid fa-gear fa-lg"></i
+        ></span>
+        <span class="screenheader__dot"></span>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__icon" href="friend.html"
+            ><i class="fa-regular fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__icon" href="chats.html">
+            <i class="fa-regular fa-comment fa-lg"></i>
+          </a>
+          <div class="nav__chat">1</div>
+        </li>
+        <li class="nav__item">
+          <a class="nav__icon" href="search.html"
+            ><i class="fa-solid fa-magnifying-glass fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__icon" href="more.html"
+            ><i class="fa-solid fa-ellipsis fa-lg"></i
+          ></a>
+          <div class="nav__dot"></div>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="main-screen">
+      <div class="search__icon-box">
+        <div class="search__icon-box__element">
+          <div class="search__icon-box__icon">
+            <i class="fa-solid fa-qrcode fa-2x"></i>
+          </div>
+          <div class="search__icon-box__text">QR-Code</div>
+        </div>
+        <div class="search__icon-box__element">
+          <div class="search__icon-box__icon">
+            <i class="fa-regular fa-address-book fa-2x"></i>
+          </div>
+          <div class="search__icon-box__text">Add by Contacts</div>
+        </div>
+        <div class="search__icon-box__element">
+          <div class="search__icon-box__icon">
+            <i class="fa-solid fa-circle-plus fa-2x"></i>
+          </div>
+          <div class="search__icon-box__text">Add by ID</div>
+        </div>
+        <div class="search__icon-box__element">
+          <div class="search__icon-box__icon">
+            <i class="fa-regular fa-envelope fa-2x"></i>
+          </div>
+          <div class="search__icon-box__text">Invite</div>
+        </div>
+      </div>
+
+      <div class="search__recommend-box">
+        <div class="search__recommend-box__element">Recommended Friends</div>
+        <div class="search__recommend-box__element">
+          You have no recommended friends.
+        </div>
+      </div>
+
+      <div class="search__open-chat">
+        <div class="search__open-chat-header">
+          <span>Open Chat</span>
+          <span
+            >Go to Openchat Home<i class="fa-solid fa-chevron-right"></i
+          ></span>
+        </div>
+        <div class="search__open-chat__element">
+          <div class="search__open-chat__element__text">
+            <span class="search__open-chat__element__text__element">#BTS </span
+            ><span class="search__open-chat__element__text__element"
+              >#BTS#ARMY#FRIENDS</span
+            >
+            <div class="search__open-chat__element__text__element">
+              <img src="image/img1.jpg" />
+              <span class="member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="active">Active</span>
+            </div>
+          </div>
+          <div class="search__open-chat__element__image">
+            <img src="image/img1.jpg" />
+            <div class="search__open-char__element__image__heart">
+              <i class="fa-solid fa-heart fa-xs"></i> 326
+            </div>
+          </div>
+        </div>
+        <div class="search__open-chat__element">
+          <div class="search__open-chat__element__text">
+            <span class="search__open-chat__element__text__element"
+              >Bts Gang~</span
+            ><span class="search__open-chat__element__text__element"
+              >blabla</span
+            >
+            <div class="search__open-chat__element__text__element">
+              <img src="image/img1.jpg" />
+              <span class="member-count">299 members</span>
+              <div class="divider"></div>
+              <span class="active">Active</span>
+            </div>
+          </div>
+          <div class="search__open-chat__element__image">
+            <img src="image/img1.jpg" />
+            <div class="search__open-char__element__image__heart">
+              <i class="fa-solid fa-heart fa-xs"></i> 215
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/d871ae3851.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.more__suggestion-box-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more__suggestion-box-icon__element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+
+.more__suggestion-box-header {
+  margin: 20px 0px;
+}

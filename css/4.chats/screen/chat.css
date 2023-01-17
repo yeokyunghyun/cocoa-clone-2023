@@ -1,0 +1,34 @@
+.user-component__text .user-component__text-small {
+  margin-top: 8px;
+}
+
+.user-component__column .user-component__chat-alarm {
+  margin-top: 5px;
+}
+
+@keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.startscreen {
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: disappear 0.3s ease-in-out forwards;
+  animation-delay: 1s;
+}
+.startscreen i {
+  font-size: 133px;
+}

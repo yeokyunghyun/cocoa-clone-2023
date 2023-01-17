@@ -1,0 +1,27 @@
+.user-component__text-small .number {
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-component__text-small .Exclamation-mark {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid pink;
+  color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.more__icon-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.more__icon-box__column i {
+  margin-bottom: 20px;
+}
+.more__icon-box__text {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,15 @@
+.friend-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friend-screen__channel__header {
+  position: relative;
+  margin-top: 15px;
+  padding: 15px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.friend-screen__channel__header i {
+  position: absolute;
+  right: 0px;
+}

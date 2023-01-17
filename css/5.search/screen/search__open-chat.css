@@ -1,0 +1,77 @@
+.search__open-chat {
+  padding-top: 15px;
+}
+.search__open-chat-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__open-chat-header span {
+  display: block;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search__open-chat__element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.search__open-chat__element__image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.search__open-chat__element__text__element:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search__open-chat__element__text__element:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.search__open-chat__element__text__element {
+  margin-bottom: 5px;
+}
+.search__open-chat__element__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.search__open-chat__element__text__element img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.search__open-chat__element__text__element .member-count {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search__open-chat__element__text__element .divider {
+  width: 2px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.search__open-chat__element__text__element .active {
+  color: pink;
+}
+.search__open-char__element__image__heart {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  color: white;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.search__open-chat__element__image {
+  position: relative;
+}

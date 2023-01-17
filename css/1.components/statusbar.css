@@ -1,0 +1,38 @@
+.status_bar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  margin: 5px 0px;
+  padding: 0px 5px;
+  top: 0px;
+  z-index: 2;
+}
+
+.status_bar__column {
+  width: 33%;
+}
+
+.status_bar__column:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.status_bar__column:first-child span {
+  margin-right: 5px;
+}
+.status_bar__column:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status_bar__column:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.status_bar__column:last-child .fa-bolt {
+  margin-left: 5px;
+}

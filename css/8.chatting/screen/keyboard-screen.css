@@ -1,0 +1,106 @@
+.keyboard-screen {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  flex-direction: column;
+}
+
+.keyboard-screen__text {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+}
+.keyboard-screen__text__element:first-child {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.keyboard-screen__text__element:last-child {
+  width: 98%;
+}
+.keyboard-screen__text__element:last-child input {
+  width: 100%;
+  border-radius: 20px;
+  padding: 8px 0px;
+}
+
+.keyboard-screen__text__element:last-child span {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 17px;
+  top: 12px;
+}
+.keyboard-screen__text__element:last-child i:first-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+.keyboard-screen__text__element:last-child i:last-child {
+  margin-left: 10px;
+}
+
+.keyboard-screen__alphabet {
+  background-color: rgb(209, 207, 207);
+}
+.keyboard-screen__alphabet__line {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 3px;
+}
+.keyboard-screen__alphabet__line:nth-child(2) {
+  padding: 0px 20px;
+}
+.keyboard-screen__alphabet__element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+  font-size: 25px;
+  font-weight: 600;
+}
+.keyboard-screen__alphabet__element-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+
+.keyboard-screen__alphabet__element-2big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+.keyboard-screen__alphabet__element-3big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}

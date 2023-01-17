@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,400&family=Sofia+Sans:ital,wght@0,200;1,300&display=swap");
+@import "reset/reset.css";
+@import "1.components/statusbar.css";
+@import "2.index/screen/welcome.css";
+@import "variable/variable.css";
+@import "index/screen/login.css";
+@import "1.components/nav.css";
+@import "1.components/screenheader.css";
+@import "1.components/more-padding.css";
+@import "3.friend/screen/friend-display.css";
+@import "1.components/user-component.css";
+@import "3.friend/screen/friend-screen.css";
+@import "4.chats/screen/chat.css";
+@import "5.search/screen/search__icon-box.css";
+@import "5.search/screen/search__open-chat.css";
+@import "6.more/screen/more.css";
+@import "6.more/screen/suggestion-box.css";
+@import "7.setting/screen/setting-list-box.css";
+@import "8.chatting/screen/chatting-screen.css";
+@import "8.chatting/screen/keyboard-screen.css";
+@import "8.chatting/screen/chatting__box.css";
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.channel-line {
+  text-align: end;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

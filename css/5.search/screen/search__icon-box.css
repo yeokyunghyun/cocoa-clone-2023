@@ -1,0 +1,26 @@
+.search__icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.search__icon-box__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+}
+
+.search__icon-box__text {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.more__icon-box__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

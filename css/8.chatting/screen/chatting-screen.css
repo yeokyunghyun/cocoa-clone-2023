@@ -1,0 +1,36 @@
+.chatting-screen {
+  background-color: #abc1d1;
+}
+
+.chatting-header__element {
+  display: flex;
+  width: 33%;
+  align-items: center;
+}
+
+.chatting-header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  align-content: center;
+  z-index: 1;
+  background-color: #abc1d1;
+}
+
+.chatting-header__element:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.chatting-header__element:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chatting-header__element:last-child i:last-child {
+  margin-left: 15px;
+}
