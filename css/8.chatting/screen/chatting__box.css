@@ -1,5 +1,6 @@
 .chatting__box {
-  padding: 110px 3px;
+  padding: 180px 3px;
+  animation: fadeIn 0.8s linear;
 }
 .chatting__date {
   display: flex;
@@ -69,4 +70,15 @@
   margin-right: 0px;
   margin-left: 5px;
   background-color: var(--yellow);
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }

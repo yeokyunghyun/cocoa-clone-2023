@@ -13,6 +13,8 @@
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
+  transform: translateY(-30px);
+  animation: navUp 1s linear forwards;
 }
 
 .nav__icon {
@@ -21,7 +23,7 @@
 }
 
 body {
-  height: 1000vh;
+  height: 100vh;
 }
 .nav__item {
   position: relative;
@@ -51,4 +53,13 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
+}
+
+@keyframes navUp {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    transform: none;
+  }
 }

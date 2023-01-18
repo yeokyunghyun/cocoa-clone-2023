@@ -1,0 +1,18 @@
+.too-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  background-color: var(--yellow);
+  font-size: 32px;
+}
+
+@media screen and (max-width: 500px) {
+  .too-big {
+    display: none;
+  }
+}

@@ -62,7 +62,7 @@
 .search__open-chat__element__text__element .active {
   color: pink;
 }
-.search__open-char__element__image__heart {
+.search__open-chat__element__image__heart {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5px;
   color: white;
@@ -74,4 +74,20 @@
 
 .search__open-chat__element__image {
   position: relative;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+  }
+}
+.search__open-chat__element__image__heart:hover i {
+  animation: heartBeat 1s linear infinite;
 }

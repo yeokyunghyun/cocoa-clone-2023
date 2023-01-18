@@ -19,6 +19,8 @@
 @import "8.chatting/screen/chatting-screen.css";
 @import "8.chatting/screen/keyboard-screen.css";
 @import "8.chatting/screen/chatting__box.css";
+@import "1.components/too-big.css";
+
 body {
   font-family: "Open Sans", sans-serif;
 }

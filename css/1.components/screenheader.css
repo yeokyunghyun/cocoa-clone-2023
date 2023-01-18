@@ -43,3 +43,15 @@
   justify-content: center;
   color: rgba(0, 0, 0, 0.5);
 }
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+.screenheader__icon__element .fa-gear {
+  animation: rotateGear 2s linear infinite;
+}

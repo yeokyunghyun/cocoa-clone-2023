@@ -49,6 +49,7 @@
 
 .keyboard-screen__alphabet {
   background-color: rgb(209, 207, 207);
+  display: none;
 }
 .keyboard-screen__alphabet__line {
   display: flex;
@@ -103,4 +104,8 @@
   background-color: white;
   box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
   font-weight: 600;
+}
+
+.keyboard-screen:focus-within .keyboard-screen__alphabet {
+  display: block;
 }
