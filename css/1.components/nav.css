@@ -15,6 +15,7 @@
   box-sizing: border-box;
   transform: translateY(-30px);
   animation: navUp 1s linear forwards;
+  z-index: 50;
 }
 
 .nav__icon {
